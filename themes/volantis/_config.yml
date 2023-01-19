@@ -435,7 +435,7 @@ comments:
   # https://github.com/ArtalkJS/Artalk
   artalk:
     server: https://artalk.ckjwl.com # 修改为自建的后端服务地址
-    path:  # 全局评论地址
+    path: # 全局评论地址
     placeholder: # 评论占位
     visitor: false # 是否显示文章阅读数
     latex: false # 启用 Latex 支持
