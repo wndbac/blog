@@ -1,0 +1,36 @@
+// 禁止文本选中
+.not-select,
+figcaption,
+footer,
+section,
+details summary,
+.new-meta-box,
+.nav-tabs
+  -webkit-touch-callout none
+  -webkit-user-select none
+  -khtml-user-select none
+  -moz-user-select none
+  -ms-user-select none
+  user-select none
+  & p,
+  & span
+    cursor: $default,default
+  &.default-cursor
+    cursor: $default,default !important
+.allow-select
+  -webkit-touch-callout all
+  -webkit-user-select all
+  -khtml-user-select all
+  -moz-user-select all
+  -ms-user-select all
+  user-select all
+
+// 文章页导航栏标题居中
+.l_header #wrapper.sub .nav-sub .title
+  margin: 0 auto
+  font-size: 1.5rem
+  overflow: hidden
+  font-weight: 800 !important
+  @media screen and (max-width: $device-mobile)
+    margin: unset !important
+    font-size: 1rem !important

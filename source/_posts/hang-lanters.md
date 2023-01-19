@@ -1,0 +1,46 @@
+---
+abbrlink: a7e70425
+categories:
+- - 教程
+date: '2023-01-13 12:55:58'
+description: 灯花助春意，舞绶织欢心。新的一年，新的气象，快来为你的博客挂上漂漂亮亮的小🏮吧！
+plugins:
+- indent
+tags:
+- Hexo
+- Volantis
+title: 给博客挂上灯笼
+updated: '2023-01-14 13:09:06'
+---
+## 引言
+
+灯花助春意，舞绶织欢心。新的一年，新的气象，快来为你的博客挂上漂漂亮亮的小🏮吧！
+
+本教程直接引入 [@韩小韩](https://www.vvhan.com) 的 [API](https://api.vvhan.com) 接口，以便实现最简化调用。如若担心引用接口失效，可以参考 [@Xlenco](https://xlenco.eu.org) 的 [这篇](https://xlenco.eu.org/posts/ada5.html) 文章以获得帮助。
+
+## 开始教程
+
+引入代码如下：
+
+```HTML
+<!-- lanters -->
+<script src="https://api.vvhan.com/api/denglong2"></script>
+```
+
+本教程以 Volantis 主题为例
+
+在根目录下 soure 文件夹中新建 _volantis/bodyEnd.ejs 文件
+
+文件填写上述引入代码即可
+
+**注：记得 `hexo clean` 哦，以防止改动未生效**
+
+## 结尾
+
+至此，你的博客已经挂上了漂亮的迎春灯笼🎉🎉🎉，效果如下图所示：
+
+{% gallery %}
+![demo](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/1/image_ed184f260acb6dcda3e5f5f99e019e74.png)
+{% endgallery %}
+
+> 如上教程，亦可以引入其它 API 来实现此类效果，万变不离其宗！

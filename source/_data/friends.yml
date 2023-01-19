@@ -1,0 +1,48 @@
+- group: 是大佬鸭 # 分组标题
+  description: 向大佬们学习 ^o^/ # 分组描述
+  items:
+    - title: 杜老师说 # 名称
+      avatar: https://cdn.dusays.com/avatar.png # 头像
+      url: https://dusays.com # 链接
+    - title: 啊不都
+      avatar: https://img.gejiba.com/images/974289a89a3b138efc3cd807599b0230.png
+      url: https://www.oplog.cn
+    - title: BeaCox
+      avatar: https://blog.beacox.space/img/avatar.png
+      url: https://blog.beacox.space
+    - title: MHuiG
+      avatar: https://fastly.jsdelivr.net/npm/mhg@latest
+      url: https://blog.mhuig.top
+    - title: 小康博客
+      avatar: https://cdn.jsdelivr.net/npm/kang-static@latest/avatar.jpg
+      url: https://www.antmoe.com
+- group: 常来玩哦~ # 分组标题
+  description: # 分组描述
+  items:
+    - title: 动荡の初二少年 # 名称
+      avatar: https://img.yt-blog.top/png/logo.png # 头像
+      url: https://www.yt-blog.top # 链接
+    - title: 一蓑烟雨
+      avatar: https://img.easyf12.top/images/2022/10/15/634a8b4186889.webp
+      url: https://easyf12.top
+    - title: 飓枫博客
+      avatar: https://cdn.fiee.tk/img/x-icon.png
+      url: https://www.smq.asia
+    - title: Xlenco
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=5
+      url: https://xlenco.eu.org
+    - title: Catch Wang
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=2045638402&s=4
+      url: https://www.catchwang.com
+    - title: 葱苓
+      avatar: https://gcore.jsdelivr.net/gh/ciraos/ciraos-static@main/img/2022-12-30-23-26-12.webp
+      url: https://blog.itciraos.cn
+    - title: 心流
+      avatar: https://blog.panghai.top/img/avatar.png
+      url: https://blog.panghai.top
+- group: 小黑屋（该区站点保留7天至3个月不定） # 分组标题
+  description: 如贵站在该区请检查贵站是否能正常访问或是否违背了本站友链原则（例：未开启https） # 分组描述
+  items:
+    - title: # 名称
+      avatar: # 头像
+      url: # 链接
