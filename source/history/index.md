@@ -12,7 +12,7 @@ comments: false
 
 {% timenode 2023-01-18 %}
 
-{% radio checked::替换`Artalk`评论系统 %}
+{% radio checked::更换`Artalk`评论系统 %}
 
 {% endtimenode %}
 
