@@ -39,7 +39,7 @@ cdn_system:
   system_config:
     # 自定义配置 使用 "theme/_cdn.yml" 中的名称作为配置项的键
     custom:
-      busuanzi: https://npm.elemecdn.com/penndu@1.0.0/bsz.js  # 杜老师友情赞助
+      busuanzi: https://npm.elemecdn.com/penndu@1.0.0/bsz.js # 杜老师友情赞助
       #artalk_js: https://static.wndbac.cn/storage/artalk/Artalk.js
       #artalk_css: https://static.wndbac.cn/storage/artalk/Artalk.css
       #volantis_style: /css/style.css
@@ -174,7 +174,7 @@ navbar:
           url: atom.xml
         - name: 新冠实时疫情图
           icon: fa-duotone fa-signal WISTERIA
-          url: virus/  
+          url: virus/
         - name: 去不图床
           icon: fa-duotone fa-image BELIZEHOLE
           url: https://7bu.top
@@ -330,7 +330,7 @@ article:
          # 自定义版权组件：精细到文章的版权声明
         custom: true # 开启后替代上方内容的版权显示
         customData:
-          default: type1  # 默认授权声明
+          default: type1 # 默认授权声明
           #############################
           # 你可以在文章的 front-matter 覆盖默认版权声明
           # 配置示例（均可选）： 
@@ -411,15 +411,15 @@ article:
       # 分享
       share:
         - id: qq
-          img:  volantis-static/media/org.volantis/logo/128/qq.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
+          img:  volantis-static/media/org.volantis/logo/128/qq.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
         - id: qzone
-          img: volantis-static/media/org.volantis/logo/128/qzone.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
+          img: volantis-static/media/org.volantis/logo/128/qzone.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
         - id: weibo
-          img: volantis-static/media/org.volantis/logo/128/weibo.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
+          img: volantis-static/media/org.volantis/logo/128/weibo.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
         - id: qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
-          img: volantis-static/media/org.volantis/logo/128/wechat.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
+          img: volantis-static/media/org.volantis/logo/128/wechat.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
         - id: # telegram
-          img: # volantis-static/media/org.volantis/logo/128/telegram.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
+          img: # volantis-static/media/org.volantis/logo/128/telegram.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
 ############################### Article Layout ############################### > end
 
 
@@ -702,7 +702,7 @@ sidebar:
     qrcode:
       class: qrcode
       display: [desktop, mobile] # [desktop, mobile]
-      height: 64px  # Automatic height if not set
+      height: 64px # Automatic height if not set
       images:
         - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
         - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
@@ -1005,8 +1005,8 @@ plugins:
     # 配置项按照yml格式继续填写即可
     appId: ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI # your appID
     appKey: nHXLd3N3Jgh460t2iRQKWAtr # your appKEY
-    # serverURL:  #leancloud绑定的api访问域名，使用国际版的话不需要填写
-    # lang: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
+    # serverURL: #leancloud绑定的api访问域名，使用国际版的话不需要填写
+    # lang: #语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
     # pageSize: #每页说说的显示数量
     # shuoPla: #在编辑说说的输入框中的占位符
     # avatarPla: #自定义头像url的输入框的占位符
@@ -1032,7 +1032,7 @@ plugins:
     # Set `plugins: ["fcircle"]` to enable in front-matter
     # 支持 Pjax
     private_api_url: https://fcircle.wndbac.cn/ # api 地址
-    page_turning_number: 10  # 点击加载更多时，一次最多加载几篇文章，默认10
+    page_turning_number: 10 # 点击加载更多时，一次最多加载几篇文章，默认10
     error_img: https://cravatar.cn/avatar/57d8260dfb55501c37dde588e7c3852c # 头像加载失败时，默认头像地址
     sort_rule: created # 进入页面时第一次的排序规则,可选值：created/updated
     app: https://npm.elemecdn.com/fcircle-theme-yyyz@1.0.5/dist/app.min.js # app.min.js的url
