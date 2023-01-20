@@ -125,6 +125,4 @@ abbrlink:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: git@github.com:wndbac/blog.git
-  branch: main
+  type: git
