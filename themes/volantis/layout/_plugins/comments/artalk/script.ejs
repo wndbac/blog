@@ -7,13 +7,13 @@
     volantis.css("<%- theme.cdn.katex_css %>");
     volantis.js("<%- theme.cdn.katex_js %>");
     volantis.js("<%- theme.cdn.artalk_js %>");
-    volantis.js("<%- theme.cdn.artalk_katex %>").then(p_artalk);
+    volantis.js("<%- theme.cdn.artalk_katex %>").then(pjax_artalk);
     <% } else { %>
-    volantis.js("<%- theme.cdn.artalk_js %>").then(p_artalk);
+    volantis.js("<%- theme.cdn.artalk_js %>").then(pjax_artalk);
     <% } %>
   }
 
-  function p_artalk() {
+  function pjax_artalk() {
     if(!document.querySelectorAll("#artalk_container")[0])return;
     let path = pdata.commentPath;
     let placeholder = pdata.commentPlaceholder || "<%= theme.comments.artalk.placeholder %>" || "";
@@ -53,22 +53,35 @@
       <% } %>
     }));
 
-    if (typeof VolantisFancyBox === "undefined"){
-      const checkFancyBox = setInterval(() => {
-        if(typeof VolantisFancyBox === "undefined") return;
-        clearInterval(checkFancyBox);
-        VolantisFancyBox.bind('.atk-content img:not([atk-emoticon])');
+    Artalk.use(ctx => {
+      ctx.on('list-loaded', () => {
+        if (typeof VolantisFancyBox === "undefined"){
+          const checkFancyBox = setInterval(() => {
+            if(typeof VolantisFancyBox === "undefined") return;
+            clearInterval(checkFancyBox);
+            VolantisFancyBox.groupBind('.atk-content img:not([atk-emoticon])', 'Comments');
+          })
+        } else {
+          VolantisFancyBox.groupBind('.atk-content img:not([atk-emoticon])', 'Comments');
+        }
       })
-    } else {
-      VolantisFancyBox.bind('.atk-content img:not([atk-emoticon])');
-    }
+    })
   }
 
   load_artalk();
+  volantis.pjax.push(()=>{
+    if (typeof Artalk === "undefined") {
+      load_artalk();
+    } else {
+      pjax_artalk();
+    }
+  },'artalk');
 
   function dark_artalk() {
     if(!document.querySelectorAll("#artalk_container")[0]) return;
-    volantis?.artalk?.setDarkMode(volantis.dark.mode === "dark")
+    volantis.artalk.then(ctx => {
+      ctx.setDarkMode(volantis.dark.mode === "dark")
+    })
   }
   volantis.dark.push(dark_artalk);
 </script>
