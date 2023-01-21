@@ -79,9 +79,7 @@
 
   function dark_artalk() {
     if(!document.querySelectorAll("#artalk_container")[0]) return;
-    volantis.artalk.then(ctx => {
-      ctx.setDarkMode(volantis.dark.mode === "dark")
-    })
+    volantis?.artalk?.setDarkMode(volantis.dark.mode === "dark")
   }
   volantis.dark.push(dark_artalk);
 </script>
