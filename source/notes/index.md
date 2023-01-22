@@ -6,5 +6,5 @@ sidebar: []
 ---
 
 <center>
-这里什么都没有
+<i class="fad fa-books fa-5x"></i>
 </center>
