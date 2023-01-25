@@ -4,10 +4,9 @@
 
 # Site
 title: WindBack的小站
-subtitle: '各自努力，山顶再见。'
-description: '各自努力，山顶再见。'
+subtitle: '各自努力，山顶再见'
+description: '各自努力，山顶再见'
 keywords: Volantis,Hexo,Blog,WindBack
-favicon: https://static.wndbac.cn/storage/image/favicon.ico
 author: WindBack
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -100,16 +99,18 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: volantis
 
-# RSS订阅 | SiteMap | BaiduSiteMap
+# Plugin
 plugin:
 - hexo-generator-feed
 - hexo-generator-baidu-sitemap
 - hexo-generator-sitemap
+
 # Feed Atom
 feed:
 type: atom
 path: atom.xml
 limit: 20
+
 # Map
 baidusitemap:
     path: baidusitemap.xml
@@ -125,4 +126,4 @@ abbrlink:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+  type: ''
