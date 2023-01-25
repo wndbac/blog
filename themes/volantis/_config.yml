@@ -427,7 +427,7 @@ article:
 comments:
   title: <i class='fa-duotone light-blue fa-comments'></i> 评论
   subtitle:
-  service: twikoo
+  service: beaudar
   # 可选评论系统 #
 
   # artalk
@@ -474,7 +474,7 @@ comments:
   # beaudar
   # https://beaudar.lipk.org/
   beaudar:
-    repo: xxx/xxx
+    repo: wndbac/beaudar
     issue-term: pathname
     issue-number:
     branch: main
