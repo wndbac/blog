@@ -674,6 +674,9 @@ sidebar:
           img: https://blog.beacox.space/img/avatar.png
           url: https://blog.beacox.space
           target: _blank
+        - name: Colsrch
+          img: https://bu.dusays.com/2022/02/23/cb173cbdcc7c6.png
+          url: https://colsrch.cn
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
