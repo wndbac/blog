@@ -677,6 +677,7 @@ sidebar:
         - name: Colsrch
           img: https://bu.dusays.com/2022/02/23/cb173cbdcc7c6.png
           url: https://colsrch.cn
+          target: _blank
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
