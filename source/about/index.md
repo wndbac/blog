@@ -4,7 +4,6 @@ layout: docs
 seo_title: 关于
 twikoo:
   placeholder: 有什么想对我说的呢？
-sidebar: [announcement, maps, links]
 ---
 
 <center>
