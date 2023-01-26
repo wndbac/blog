@@ -43,6 +43,9 @@
     - title: 心流
       avatar: https://blog.panghai.top/img/avatar.png
       url: https://blog.panghai.top
+    - title: 摸鱼屋
+      avatar: https://pic.moyu233.xyz/i/1/logo.png
+      url: https://moyu233.top
 - group: 小黑屋（该区站点保留7天至3个月不定） # 分组标题
   description: 如贵站在该区请检查贵站是否能正常访问或是否违背了本站友链原则（例：未开启https） # 分组描述
   items:
