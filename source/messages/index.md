@@ -1,6 +1,7 @@
 ---
 bottom_meta: false
 seo_title: 留言板
+sidebar: [announcement, maps, links]
 ---
 
 <center>
