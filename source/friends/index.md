@@ -2,7 +2,7 @@
 bottom_meta: false
 layout: friends
 seo_title: 好伙伴
-sidebar: [gongao, dao_hang]
+sidebar: [gongao, maps]
 ---
 
 <center>
