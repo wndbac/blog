@@ -674,10 +674,6 @@ sidebar:
           img: https://blog.beacox.space/img/avatar.png
           url: https://blog.beacox.space
           target: _blank
-        - name: MHuiG
-          img: https://fastly.jsdelivr.net/npm/mhg@latest
-          url: https://blog.mhuig.top
-          target: _blank
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
