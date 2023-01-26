@@ -595,9 +595,9 @@ comments:
 sidebar:
   position: right # left right
   # 主页、分类、归档等独立页面
-  for_page: [gongao, dao_hang, lastupdate, webinfo]
+  for_page: [gongao, maps, lastupdate, links, webinfo]
   # layout: docs/post 这类文章页面
-  for_post: [gongao, dao_hang, toc]
+  for_post: [gongao, maps, toc]
   # 侧边栏组件库
   widget_library:
     # ---------------------------------------
@@ -632,8 +632,8 @@ sidebar:
         - '本站替换了默认右键菜单，唤醒原系统菜单：**Ctrl** + **右键**'
         - '本站已更换域名：https://wndbac.cn ，并将主题更新至 **6.0-pjax** 版本，欢迎访问~'
     # ---------------------------------------
-    # daohang widget
-    dao_hang:
+    # maps widget
+    maps:
       class: grid
       display: [desktop]
       header:
@@ -657,7 +657,7 @@ sidebar:
           icon: fa-duotone fa-paper-plane SUNFLOWER
           url: https://travellings.now.sh
     # ---------------------------------------
-    # links
+    # links widget
     links:
       class: list
       sticky: true
