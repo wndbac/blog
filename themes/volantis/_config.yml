@@ -1110,7 +1110,9 @@ rightmenus:
     - menus.darkMode
     - plugins.articlePage
   options:
+    iconPrefix: fa-duotone
     articleShowLink: false
+    musicAlwaysShow: false
   ############################
   # - {id: '', name: '', icon: '', link: '', event: '', group: ''}
   # id: 唯一值
