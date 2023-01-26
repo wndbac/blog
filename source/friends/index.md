@@ -2,7 +2,7 @@
 bottom_meta: false
 layout: friends
 seo_title: 好伙伴
-sidebar: [announcement, maps]
+sidebar: [announcement, maps, links]
 ---
 
 <center>
