@@ -100,7 +100,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: volantis
 
-# Plugin
+# Plugins
 plugin:
 - hexo-generator-feed
 - hexo-generator-baidu-sitemap
@@ -112,7 +112,7 @@ type: atom
 path: atom.xml
 limit: 20
 
-# Map
+# Maps
 baidusitemap:
     path: baidusitemap.xml
 sitemap:
