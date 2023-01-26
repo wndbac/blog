@@ -1109,10 +1109,6 @@ rightmenus:
     - hr
     - menus.darkMode
     - plugins.articlePage
-  options:
-    iconPrefix: fa-duotone
-    articleShowLink: false
-    musicAlwaysShow: false
   ############################
   # - {id: '', name: '', icon: '', link: '', event: '', group: ''}
   # id: 唯一值
@@ -1134,9 +1130,9 @@ rightmenus:
     # 图标前缀 fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands
     iconPrefix: fa-duotone
     # 例外，在 articlePage 组显示时（文章页）时依旧显示含 link 属性的菜单项
-    articleShowLink: true
+    articleShowLink: false
     # 当设定全局音乐播放器时，是否一直显示音乐控制菜单。false：仅当音乐播放时启用
-    musicAlwaysShow: true
+    musicAlwaysShow: false
   # 右键内置组，预置实现
   plugins:
     # 导航组件
