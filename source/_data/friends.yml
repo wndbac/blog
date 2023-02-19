@@ -20,7 +20,7 @@
   description: # 分组描述
   items:
     - title: 动荡の初二少年 # 名称
-      avatar: https://img.yt-blog.top/png/logo.png # 头像
+      avatar: https://npm.elemecdn.com/ytblogimg/webp/logo.webp # 头像
       url: https://www.yt-blog.top # 链接
     - title: 一蓑烟雨
       avatar: https://img.easyf12.top/images/2022/10/15/634a8b4186889.webp
