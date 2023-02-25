@@ -449,7 +449,7 @@ comments:
       # resp: 'data.links.url'
       api: https://img.lkxin.cn/api/v1 # 图床地址
       token: 73|y3l8xvmOjkAO6MJGCM26Mfywrxgfjd1YJDoQFr2S # 图床验证
-      resp: data.url # 图片地址返回值的字段
+      resp: data.links.url # 图片地址返回值的字段
     # 更多置项可在 Artalk 后端进行配置，详见 https://artalk.js.org/guide/backend/fe-control.html
     # 也可以在此处继续参考上方例子进行配置，不建议重写配置的字段除上方所述外还有：
     # [el, useBackendConf, pageKey, pageTitle, site, darkMode, pvEl, imgUploader]
