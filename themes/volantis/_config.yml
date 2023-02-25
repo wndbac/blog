@@ -625,7 +625,7 @@ sidebar:
     # announcement widget
     announcement:
       class: text
-      display: [desktop]
+      display: [desktop, mobile]
       header:
         icon: fa-duotone fa-bullhorn AMETHYST
         title: 公告
@@ -636,7 +636,7 @@ sidebar:
     # maps widget
     maps:
       class: grid
-      display: [desktop]
+      display: [desktop, mobile]
       header:
         icon: fa-duotone fa-map-signs PETERRIVE
         title: 导航
