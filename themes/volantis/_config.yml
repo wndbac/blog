@@ -676,6 +676,28 @@ sidebar:
           url: https://blog.beacox.space
           target: _blank
     # ---------------------------------------
+    # notes widget
+    links:
+      class: list
+      sticky: false
+      display: [desktop]
+      header:
+        icon: fa-duotone fa-flower-daffodil
+        title: 笔记本
+      rows:
+        - name: HTML
+          icon: fad fa-kerning
+          url: https://www.runoob.com/html/html-tutorial.html
+          target: _blank
+        - name: JavaScript
+          icon: fad fa-kerning
+          url: https://www.runoob.com/js/js-tutorial.html
+          target: _blank
+        - name: CSS
+          icon: fad fa-kerning
+          url: https://www.runoob.com/css/css-tutorial.html
+          target: _blank
+    # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
       class: toc
