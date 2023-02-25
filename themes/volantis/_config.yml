@@ -677,10 +677,10 @@ sidebar:
           target: _blank
     # ---------------------------------------
     # notes widget
-    links:
+    notes:
       class: list
       sticky: false
-      display: [desktop]
+      display: [desktop, mobile]
       header:
         icon: fa-duotone fa-flower-daffodil
         title: 笔记本
