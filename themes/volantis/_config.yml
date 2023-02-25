@@ -448,7 +448,7 @@ comments:
       # token: 'Bearer xxxxxxxxxxxxxx'
       # resp: 'data.links.url'
       api: https://sm.ms/api/v2/ # 图床地址
-      token:  "Authorization": "Basic avwp8itOJmfFFMu8CbUtcjOMqlulRRMT" # 图床验证
+      token: "Authorization": "Basic avwp8itOJmfFFMu8CbUtcjOMqlulRRMT" # 图床验证
       resp: data.url # 图片地址返回值的字段
     # 更多置项可在 Artalk 后端进行配置，详见 https://artalk.js.org/guide/backend/fe-control.html
     # 也可以在此处继续参考上方例子进行配置，不建议重写配置的字段除上方所述外还有：
