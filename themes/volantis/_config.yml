@@ -447,7 +447,7 @@ comments:
       # url: 'https://xxxxxx/api/v1/upload'
       # token: 'Bearer xxxxxxxxxxxxxx'
       # resp: 'data.links.url'
-      api: https://img.lkxin.cn/api/v1 # 图床地址
+      api: https://img.lkxin.cn/api/v1/upload # 图床地址
       token: 73|y3l8xvmOjkAO6MJGCM26Mfywrxgfjd1YJDoQFr2S # 图床验证
       resp: data.links.url # 图片地址返回值的字段
     # 更多置项可在 Artalk 后端进行配置，详见 https://artalk.js.org/guide/backend/fe-control.html
