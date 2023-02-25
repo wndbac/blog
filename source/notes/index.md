@@ -6,5 +6,5 @@ sidebar: [notes]
 ---
 
 <center>
-<i class="fad fa-books fa-5x"></i>
+<i class="fad fa-book fa-5x"></i>
 </center>
