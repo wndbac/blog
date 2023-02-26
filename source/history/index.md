@@ -52,7 +52,7 @@ comments: false
 
 {% endtimenode %}
 
-{% timenode 2021-07-30 %}
+{% timenode 2021-07 %}
 
 {% radio checked::完全自写html %}
 {% radio checked::使用`Valine`评论系统 %}
