@@ -668,11 +668,11 @@ sidebar:
         title: 推荐
       rows:
         - name: 杜老师说
-          img: https://cdn.dusays.com/avatar.png
+          img: https://static.wndbac.cn/links/du.png
           url: https://dusays.com
           target: _blank
         - name: BeaCox
-          img: https://blog.beacox.space/img/avatar.png
+          img: https://static.wndbac.cn/links/beacox.png
           url: https://blog.beacox.space
           target: _blank
     # ---------------------------------------
