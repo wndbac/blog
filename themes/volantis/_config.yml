@@ -651,9 +651,9 @@ sidebar:
         - name: 留言板
           icon: fa-duotone fa-comment-alt-smile PETERRIVE
           url: /messages/
-        - name: 新冠实时疫情图
-          icon: fa-duotone fa-signal BELIZEHOLE
-          url: /virus/
+        - name: ChatGPT机器人
+          icon: fa-duotone fa-robot PETERRIVE
+          url: https://chatgpt.wndbac.cn
         - name: 开往
           icon: fa-duotone fa-paper-plane SUNFLOWER
           url: https://travellings.now.sh
