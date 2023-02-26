@@ -12,7 +12,7 @@ readmore: false
 <p class="p center logo ultra" style="text-align:center"><i class="fa-duotone fa-star-of-david" style="color:#a6d5fa" title="欢迎"></i></p>
 
 <center>
-<img src="https://jsd.onmicrosoft.cn/gh/wndbac/wndbac@output/github-contribution-grid-snake.svg">
+<img src="https://cdn.jsdelivr.net/gh/wndbac/wndbac@output/github-contribution-grid-snake.svg">
 </center>
 
 <!-- more -->
