@@ -48,7 +48,7 @@ comments: false
 
 {% timenode 2022-09-11 %}
 
-{% radio checked::使用`Hexo`作为博客，以`Volantis`作为主题 %}
+{% radio checked::使用`Hexo`作为框架，以`Volantis`作为主题 %}
 
 {% endtimenode %}
 
