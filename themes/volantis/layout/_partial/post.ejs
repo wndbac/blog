@@ -104,14 +104,5 @@
           <% } %>
         <% } %>
       </div>
-      <% if (showReadmore) { %>
-        <div>
-          <a class='readmore' href='<%- url_for(post.link || post.path) %>' itemprop="url">
-            <%- post.link ? __('post.readoriginal') : __('post.readmore') %>
-          </a>
-        </div>
-      <% } %>
-    </div>
-  <% } %>
 
 </div>
