@@ -173,15 +173,15 @@ navbar:
         - name: RSS订阅
           icon: fa-duotone fa-rss PETERRIVE
           url: atom.xml
-        - name: 新冠实时疫情图
-          icon: fa-duotone fa-signal WISTERIA
-          url: virus/
         - name: 去不图床
-          icon: fa-duotone fa-image BELIZEHOLE
+          icon: fa-duotone fa-globe BELIZEHOLE
           url: https://7bu.top
-        - name: 每日早报
+        - name: 早报
           icon: fa-duotone fa-newspaper TURQUOISE
           url: https://news.wndbac.cn
+        - name: ChatGPT机器人
+          icon: fa-duotone fa-robot PETERRIVE
+          url: https://chatgpt.wndbac.cn
     - name: 更多
       icon: fa-duotone fa-ellipsis-v PETERRIVE
       rows:
