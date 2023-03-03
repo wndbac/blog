@@ -182,6 +182,10 @@ navbar:
         - name: ChatGPT机器人
           icon: fa-duotone fa-robot PETERRIVE
           url: https://chatgpt.wndbac.cn
+        - name: hr
+        - name: 访客统计
+          icon: fa-duotone fa-align-left fa-fw CARROT
+          url: https://u.xiaozonglin.cn
     - name: 更多
       icon: fa-duotone fa-ellipsis-v PETERRIVE
       rows:
