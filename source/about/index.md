@@ -2,6 +2,7 @@
 bottom_meta: false
 layout: docs
 seo_title: 关于
+sidebar: [announcement, maps]
 twikoo:
   placeholder: 有什么想对我说的呢？
 ---
