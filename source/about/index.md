@@ -20,7 +20,7 @@ twikoo:
 
 <!-- endtab -->
 
-<!-- tab 关于 -->
+<!-- tab 关于我 -->
 
 {% radio checked::前端初学者。 %}
 {% radio checked::热爱技术，热爱创造。 %}
