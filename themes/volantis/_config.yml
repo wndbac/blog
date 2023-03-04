@@ -120,7 +120,7 @@ content_visibility: false
 replace:
   - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
   - https://cdn.jsdelivr.net/gh/ => https://gcore.jsdelivr.net/gh/
-  - https://gcore.jsdelivr.net/gh/wndbac/Static/ => https://static.wndbac.cn/
+  - https://gcore.jsdelivr.net/gh/wndbac/Static/ => https://windback.xyz/
 
 
 # dns-prefetch preconnect x-dns-prefetch-control
