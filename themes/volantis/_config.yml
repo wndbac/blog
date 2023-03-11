@@ -119,8 +119,10 @@ content_visibility: false
 # 全局页面字符串替换  A => B (可用于临时修改错字等)
 replace:
   - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
+  - https://unpkg.com/ => https://cdn.wndbac.cn/npm/
   - https://cdn.jsdelivr.net/gh/ => https://gcore.jsdelivr.net/gh/
-  - https://gcore.jsdelivr.net/gh/wndbac/Static/ => https://windback.xyz/
+  - https://gcore.jsdelivr.net/gh/ => https://cdn.wndbac.cn/gh/
+  - https://gcore.jsdelivr.net/gh/wndbac/Static/ => https://static.wndbac.cn/
 
 
 # dns-prefetch preconnect x-dns-prefetch-control
