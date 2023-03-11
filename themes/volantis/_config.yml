@@ -186,7 +186,7 @@ navbar:
         - name: hr
         - name: 访客统计
           icon: fa-duotone fa-align-left fa-fw CARROT
-          url: https://u.xiaozonglin.cn
+          url: https://u.xiaozonglin.cn/share/GpXkFDHO/blog
     - name: 更多
       icon: fa-duotone fa-ellipsis-v PETERRIVE
       rows:
