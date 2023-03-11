@@ -3,12 +3,12 @@ abbrlink: c6a56fac
 categories:
 - - 博客
 date: '2023-03-11 16:48:25'
-description: 我们的站点通常会使用一些CDN来进行加速，例如jsDelivr, UNPKG等，但是它们在境内的加速效果都不是很理想，这里阐述如何用Cloudflare反代它们以达到提速效果。
+description: 我们的站点通常会使用一些CDN来进行加速，例如jsDelivr, UNPKG等，但是它们在境内的加速效果都不是很理想，本篇阐述如何用Cloudflare反代它们以达到提速效果。
 plugins:
 - indent
 tags:
 - Cloudflare
-title: 部署Cloudflare反代
+title: Cloudflare反代
 updated: Sat, 11 Mar 2023 08:48:26 GMT
 ---
 ## 前言
