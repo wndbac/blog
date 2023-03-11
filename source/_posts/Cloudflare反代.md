@@ -57,15 +57,17 @@ export default {
 使用：
 
 ```
-npm: https://部署的域名/npm/package@version/file
-GitHub: https://部署的域名/gh/user/repo@version/file
-WordPress: https://部署的域名/wp/plugins/project/tags/version/file
+npm: https://yourdomain/npm/package@version/file
+GitHub: https://yourdomain/gh/user/repo@version/file
+WordPress: https://yourdomain/wp/plugins/project/tags/version/file
 ```
 
 更多可访问 [jsDelivr](https://www.jsdelivr.com) 官网查看：
 
-![https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/3/image_f05b6c26e4dd9599882c8c06ccb2d0bb.png](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/3/image_f05b6c26e4dd9599882c8c06ccb2d0bb.png)
+{% gallery %}
+![jsDelivr](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/3/image_f05b6c26e4dd9599882c8c06ccb2d0bb.png)
+{% endgallery %}
 
-只需将 **cdn.jsdelivr.net** 替换为你部署的域名即可。
+只需将 **cdn.jsdelivr.net** 替换为你部署反代服务的域名即可。
 
 > 同理：反代其它网站也可以使用上述代码，但若别人开启了禁止反代等保护手段，就无法。
