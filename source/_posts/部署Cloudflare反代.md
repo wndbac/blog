@@ -47,7 +47,7 @@ export default {
   };
 ```
 
-> 注：index.html文件其实即为一个重定向，请将https://cdn.wndbac.cn替换为自己的域名或后面Cloudflare分配的域名。
+> 注：index.html文件其实即为一个重定向，请将 https://cdn.wndbac.cn 替换为自己的域名或后面Cloudflare分配的域名。
 
 将以上代码导入Cloudflare，然后绑定自己的域名（可无），最后就大功告成了。
 
@@ -56,19 +56,15 @@ export default {
 使用：
 
 ```
-npm:https://部署的域名/npm/package@version/file
-GitHub:https://部署的域名/gh/user/repo@version/file
-WordPress:https://部署的域名/wp/plugins/project/tags/version/file
+npm: https://部署的域名/npm/package@version/file
+GitHub: https://部署的域名/gh/user/repo@version/file
+WordPress: https://部署的域名/wp/plugins/project/tags/version/file
 ```
 
 更多可访问 [jsDelivr](https://www.jsdelivr.com) 官网查看：
 
 ![https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/3/image_f05b6c26e4dd9599882c8c06ccb2d0bb.png](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/3/image_f05b6c26e4dd9599882c8c06ccb2d0bb.png)
 
-只需将它的 **cdn.jsdelivr.net** 替换为你部署的域名即可。
+只需将 **cdn.jsdelivr.net** 替换为你部署的域名即可。
 
 > 同理：反代其它网站也可以使用上述代码，但若别人开启了禁止反代等保护手段，就无法。
-
-如果你觉得部署有些繁琐，可以使用我部署的：
-
-> https://cdn.wndbac.cn
