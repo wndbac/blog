@@ -17,7 +17,7 @@ updated: Sat, 11 Mar 2023 08:48:26 GMT
 
 ## 解决方法
 
-Cloudflare在全球速度都是相对很快的，所以这里选择使用Cloudflare进行反代以上的CDN服务以解决它们在境内速度慢的问题。
+Cloudflare在全球速度都是相对较快的，所以这里选择使用Cloudflare进行反代以上的CDN服务以解决它们在境内速度慢的问题。
 
 > 注：如若没有 [Cloudflare](https://www.cloudflare.com) 账号，要先去注册一个，并与 [GitHub](https://github.com) 连接。
 
