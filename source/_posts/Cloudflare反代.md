@@ -8,6 +8,7 @@ plugins:
 - indent
 tags:
 - Cloudflare
+darkMode: auto
 title: Cloudflare反代
 updated: Sat, 11 Mar 2023 08:48:26 GMT
 ---
@@ -70,4 +71,4 @@ WordPress: https://yourdomain/wp/plugins/project/tags/version/file
 
 只需将 **cdn.jsdelivr.net** 替换为你部署反代服务的域名即可。
 
-> 同理：反代其它网站也可以使用上述代码，但若别人开启了禁止反代等保护手段，就无法。
+> 同理：反代其它网站也可以使用上述代码，但若别人开启了禁止反代等保护措施，就无法。
