@@ -179,7 +179,7 @@ navbar:
           icon: fa-duotone fa-globe BELIZEHOLE
           url: https://7bu.top
         - name: 早报
-          icon: fa-duotone fa-newspaper TURQUOISE
+          icon: fa-duotone fa-newspaper PETERRIVE
           url: https://news.wndbac.cn
         - name: ChatGPT机器人
           icon: fa-duotone fa-robot PETERRIVE
