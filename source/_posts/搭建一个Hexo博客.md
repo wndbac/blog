@@ -8,7 +8,7 @@ plugins:
 - indent
 tags:
 - Hexo
-title: 搭建一个博客系统
+title: 搭建一个Hexo博客
 updated: Sat, 04 Feb 2023 15:12:10 GMT
 ---
 ## 简介
@@ -122,7 +122,7 @@ public/
 所以为使Hexo博客运行，这里推荐使用 [Vercel](https://vercel.com) 进行部署，亦或使用 [GitHub Actions](https://xaoxuu.com/blog/20221126/#GitHub-Actions-自动化部署) 自动化部署，这里选择前者
 
 {% gallery %}
-![Vercel](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/1/image_4e57c9f5fc1631f3e415d4c400ccfe13.png)
+![Vercel](https://cdn.wndbac.cn/gh/wndbac/Static/blog_img/2023/1/image_4e57c9f5fc1631f3e415d4c400ccfe13.png)
 {% endgallery %}
 
 > 请先将账号与GitHub连接
@@ -130,19 +130,19 @@ public/
 1. 点击右上角`Add New`，点开`Project`选项
 
 {% gallery %}
-![image](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/1/image_41687b54331a498b75870525bd9b4bc0.png)
+![image](https://cdn.wndbac.cn/gh/wndbac/Static/blog_img/2023/1/image_41687b54331a498b75870525bd9b4bc0.png)
 {% endgallery %}
 
 2. 在弹出的仓库中选择你部署Hexo原文件的仓库，点击`Import`按键
 
 {% gallery %}
-![image](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/1/image_51b10f51997779da1f01373e757bbab7.png)
+![image](https://cdn.wndbac.cn/gh/wndbac/Static/blog_img/2023/1/image_51b10f51997779da1f01373e757bbab7.png)
 {% endgallery %}
 
 3. 到这个页面，点击`Deploy`按键，等待部署完成
 
 {% gallery %}
-![image](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/1/image_69d70e631d5aa9c3038167263b1dd21f.png)
+![image](https://cdn.wndbac.cn/gh/wndbac/Static/blog_img/2023/1/image_69d70e631d5aa9c3038167263b1dd21f.png)
 {% endgallery %}
 
 > 部署完成后，Vercel会分配给你一个子域名，但可惜的是`*.vercel.app`域名在大陆地区被电信运营商 DNS 污染，无法直接访问。
