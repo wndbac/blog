@@ -65,7 +65,7 @@ WordPress: https://yourdomain/wp/plugins/project/tags/version/file
 更多可访问 [jsDelivr](https://www.jsdelivr.com) 官网查看：
 
 {% gallery %}
-![jsDelivr](https://gcore.jsdelivr.net/gh/wndbac/Static/blog_img/2023/3/image_f05b6c26e4dd9599882c8c06ccb2d0bb.png)
+![jsDelivr](https://cdn.wndbac.cn/gh/wndbac/Static/blog_img/2023/3/image_f05b6c26e4dd9599882c8c06ccb2d0bb.png)
 {% endgallery %}
 
 只需将 **cdn.jsdelivr.net** 替换为你部署反代服务的域名即可。
