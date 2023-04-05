@@ -1224,6 +1224,7 @@ rightmenus:
     link:
       - {id: 'comments', name: '留言板', icon: 'fa-duotone fa-comment-alt-smile PETERRIVE', link: '/messages/', group: 'link'}
       - {id: 'friends', name: '我的朋友们', icon: 'fa-duotone fa-link ALIZARIN', link: '/friends/', group: 'link'}
+      - {id: 'fcircle', name: '朋友圈', icon: 'fa-duotone fa-user-friends PUMPKIN', link: '/fcircle/', group: 'link'}
       - {id: 'virus', name: '便笺纸', icon: 'fa-duotone fa-books TURQUOISE', link: '/notes/', group: 'link'}
       - {id: 'talks', name: '建站史', icon: 'fa-duotone fa-history AMETHYST', link: '/history/', group: 'link'}
     darkMode:
