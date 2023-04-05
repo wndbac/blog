@@ -34,3 +34,21 @@ details summary,
   @media screen and (max-width: $device-mobile)
     margin: unset !important
     font-size: 1rem !important
+
+// 链接下划线
+.article a:not([class]):not([data-fancybox]),
+.content > a
+  position: relative
+  text-decoration: none
+  &:before
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px
+    height: 1px
+    width: 100%
+    background: #ff5722
+    transform: scale(0)
+    transition: all 0.5s
+  &:hover:before
+    transform: scale(1)
