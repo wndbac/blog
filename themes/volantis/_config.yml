@@ -652,7 +652,7 @@ sidebar:
           icon: fa-duotone fa-books TURQUOISE
           url: /notes/
         - name: 友情链接
-          icon: fa-duotone fa-users EMERALD
+          icon: fa-duotone fa-link EMERALD
           url: /friends/
         - name: 留言板
           icon: fa-duotone fa-comment-alt-smile PETERRIVE
@@ -1416,7 +1416,7 @@ custom_css:
     logofont:
       fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: 'Varela Round'
-      url: https://static.wndbac.cn/storage/font/FZFWZhuZiAYuanJR.OTF # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
+      url: https://static.wndbac.cn/storage/font/Sxls.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
       weight: normal
       style: normal
     bodyfont:
