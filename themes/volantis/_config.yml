@@ -208,7 +208,7 @@ navbar:
           url: messages/
         - name: hr
         - name: 暗黑模式
-          icon: fa-duotone fa-moon CARROT
+          icon: fa-duotone fa-adjust CARROT
           toggle: darkmode
   search: 想找些什么~ # Search bar placeholder
 ############################### Navigation Bar ############################### > end
@@ -1228,7 +1228,7 @@ rightmenus:
       - {id: 'virus', name: '便笺纸', icon: 'fa-duotone fa-books TURQUOISE', link: '/notes/', group: 'link'}
       - {id: 'talks', name: '建站史', icon: 'fa-duotone fa-history AMETHYST', link: '/history/', group: 'link'}
     darkMode:
-      - {id: 'darkMode', name: '暗黑模式', icon: 'fa-duotone fa-moon GREENSEA', event: 'volantis.dark.toggle()', group: 'darkMode'}
+      - {id: 'darkMode', name: '暗黑模式', icon: 'fa-duotone fa-adjust CARROT', event: 'volantis.dark.toggle()', group: 'darkMode'}
     prevNext:
       - {id: 'prev', name: '查看上一篇', icon: 'fa-duotone fa-angles-left light-blue', event: "volantis.rightmenu.jump('prev')", group: 'prevNext'}
       - {id: 'next', name: '查看下一篇', icon: 'fa-duotone fa-angles-right light-blue', event: "volantis.rightmenu.jump('next')", group: 'prevNext'}
