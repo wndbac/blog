@@ -19,6 +19,8 @@ twikoo:
 
 ### 首先欢迎您的到来！
 
+![今日诗词](https://v2.jinrishici.com/one.svg)
+
 <!-- endtab -->
 
 <!-- tab 关于我 -->
