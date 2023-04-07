@@ -183,7 +183,7 @@ navbar:
           url: https://news.wndbac.cn
         - name: ChatGPT机器人
           icon: fa-duotone fa-robot PETERRIVE
-          url: https://chatgpt.wndbac.cn
+          url: https://chat.wndbac.cn
         - name: hr
         - name: 访客统计
           icon: fa-duotone fa-align-left fa-fw CARROT
@@ -659,7 +659,7 @@ sidebar:
           url: /messages/
         - name: ChatGPT机器人
           icon: fa-duotone fa-robot PETERRIVE
-          url: https://chatgpt.wndbac.cn
+          url: https://chat.wndbac.cn
         - name: 开往
           icon: fa-duotone fa-paper-plane SUNFLOWER
           url: https://travellings.now.sh
