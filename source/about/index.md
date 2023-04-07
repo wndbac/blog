@@ -19,7 +19,8 @@ twikoo:
 
 ### 首先欢迎您的到来！
 
-![今日诗词](https://v2.jinrishici.com/one.svg)
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+<p id="hitokoto">:D 获取中...</p>
 
 <!-- endtab -->
 
