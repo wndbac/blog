@@ -4,6 +4,7 @@ categories:
 - - 教程
 date: '2023-01-06 15:08:25'
 description: Hexo是一款基于Nodejs的，快速、简洁且高效的博客框架。具有丰富的插件和主题，具有超快的速度。支持Makedown语法，可以方便快捷的编写博客文档。同时支持node命令，可以一键部署到GitHub Pages, Heroku等其他平台。
+readmore: false
 plugins:
 - indent
 tags:
