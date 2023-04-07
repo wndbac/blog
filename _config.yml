@@ -124,9 +124,6 @@ abbrlink:
   rep: hex        # 进制--支持 dec(默认/十进制) and hex(十六进制)
   drafts: false   # (true)处理草稿/(false)默认不处理草稿
 
-# 不进行渲染
-skip_render: admin/**/*
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
