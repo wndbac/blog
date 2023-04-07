@@ -5,6 +5,7 @@ updated: {{ date }}
 abbrlink: {{ abbrlink }}
 categories: 
 tags: 
+readmore: false
 plugins:
   - indent
 ---
