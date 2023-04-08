@@ -121,7 +121,7 @@ replace:
   - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
   # - https://unpkg.com/ => https://cdn.wndbac.cn/npm/
   - https://cdn.jsdelivr.net/gh/ => https://gcore.jsdelivr.net/gh/
-  # - https://gcore.jsdelivr.net/gh/ => https://cdn.wndbac.cn/gh/
+  # - https://cdn.jsdelivr.net/gh/ => https://cdn.wndbac.cn/gh/
   - https://gcore.jsdelivr.net/gh/wndbac/Static/ => https://static.wndbac.cn/
 
 
