@@ -46,6 +46,6 @@
 - group: 小黑屋（该区站点保留7天至3个月不定） # 分组标题
   description: 如贵站在该区请检查贵站是否能正常访问或是否违背了本站友链原则（例：未开启https） # 分组描述
   items:
-    - title: Test # 名称
-      avatar: https://7.dusays.com/2020/10/07/e18d5ecba230a.png # 头像
-      url: / # 链接
+    - title: # 名称
+      avatar: # 头像
+      url: # 链接
