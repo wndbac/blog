@@ -42,7 +42,7 @@ sidebar: [announcement, maps]
 
 <!-- endtab -->
 
-<!-- tab <i class='fad fa-cannabis logoColor'></i> 本站信息 -->
+<!-- tab <i class='fad fa-cannabis'></i> 本站信息 -->
 
 ```YAML
 title: WindBack # 名称
