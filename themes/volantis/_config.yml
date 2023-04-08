@@ -681,6 +681,10 @@ sidebar:
           img: https://storage.wndbac.cn/links/beacox.png
           url: https://blog.beacox.space
           target: _blank
+        - name: MHuiG
+          img: https://storage.wndbac.cn/links/mhg.png
+          url: https://blog.mhuig.top
+          target: _blank
     # ---------------------------------------
     # notes widget
     notes:
