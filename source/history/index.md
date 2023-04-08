@@ -12,7 +12,7 @@ comments: false
 
 {% timenode 2023-04-07 %}
 
-{% radio checked::关闭`阅读更多`显示 %}
+{% radio checked::重设UI，关闭`阅读更多`显示 %}
 
 {% endtimenode %}
 
