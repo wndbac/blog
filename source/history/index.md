@@ -10,9 +10,15 @@ comments: false
 {% span large green, 史 %}
 </center>
 
+{% timenode 2023-04-07 %}
+
+{% radio checked::关闭`阅读更多`显示 %}
+
+{% endtimenode %}
+
 {% timenode 2023-01-18 %}
 
-{% radio checked::更换`Artalk`评论系统 %}
+{% radio checked::更换`Artalk`评论系统（现已换回Twikoo） %}
 
 {% endtimenode %}
 
