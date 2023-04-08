@@ -842,13 +842,13 @@ site_footer:
     <span>访客数为 <span id='busuanzi_value_site_uv'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
   # site information
   information: >
-    <div class="footerMax560">本站使用 [Volantis](https://volantis.js.org) 作为主题 | 由 [Hexo](https://hexo.io/zh-cn/) 强力驱动 | 由 [Vercel](https://vercel.com) 进行部署</div>
+    <div class="footerMax560">本站使用 <a href="https://volantis.js.org">Volantis</a> 作为主题 | 由 <a href="https://hexo.io/zh-cn/">Hexo</a> 强力驱动 | 由 <a href="https://vercel.com">Vercel</a> 进行部署</div>
   # site copyright
   copyrights: >
     <div class="footerMax560">Copyright © 2022-2023 WindBack. All Rights Reserved</div>
   # site beian
   beian: >
-    <div class="footerMax560">萌 ICP 备 [20230023](https://icp.gov.moe/?keyword=20230023) 号</div>
+    <div class="footerMax560">萌 ICP 备 <a href="https://icp.gov.moe/?keyword=20230023">20230023</a> 号</div>
   # site end
   ending: '[WindBack的小站](/)'
   # site icon
