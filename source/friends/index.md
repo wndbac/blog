@@ -49,7 +49,7 @@ title: WindBack # 名称
 avatar: https://static.wndbac.cn/avatar.jpg # 头像
 url: https://wndbac.cn # 链接
 screenshot: https://static.wndbac.cn/screenshot.png # 截图
-description: 各自努力，山顶再见 # 描述
+description: 世态人情，可当书读，可作戏看。 # 描述
 ```
 
 <!-- endtab -->
