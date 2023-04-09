@@ -24,7 +24,7 @@ comments: false
 
 {% timenode 2023-01-10 %}
 
-{% radio checked::更换博客域名为`wndbac.cn`，缩短长度 %}
+{% radio checked::更换博客域名为`wndbac.cn`，缩短字符 %}
 
 {% endtimenode %}
 
