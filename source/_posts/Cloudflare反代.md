@@ -49,7 +49,7 @@ export default {
   };
 ```
 
-> 注：index.html文件其实即为一个重定向，请将 https://cdn.wndbac.cn 替换为自己的域名或后面Cloudflare分配的域名。
+> 注：index文件其实即为一个重定向，请将 https://cdn.wndbac.cn 替换为自己的域名或后面Cloudflare分配的域名。
 
 将以上代码导入Cloudflare，然后绑定自己的域名（可无），最后就大功告成了。
 
