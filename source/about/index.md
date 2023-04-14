@@ -31,7 +31,7 @@ twikoo:
 
 <!-- tab <i class='fad fa-fingerprint'></i> -->
 
-![Github Stats](https://github-readme-stats.xaoxuu.com/api/?username=wndbac&show_owner=true)
+[![Github Stats](https://github-readme-stats.xaoxuu.com/api/?username=wndbac&show_owner=true)](https://github.com/wndbac)
 
 <!-- endtab -->
 
