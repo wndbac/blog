@@ -1,6 +1,9 @@
 ---
-title: OpenAI API 代理
-layout: false
+bottom_meta: false
+seo_title: OpenAI API 代理
+layout: page
+sidebar: []
+comments: false
 ---
 
 # OpenAI API 代理
