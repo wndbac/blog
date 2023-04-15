@@ -1,6 +1,6 @@
 ---
 bottom_meta: false
-seo_title: OpenAI API 代理
+title: OpenAI API 代理
 layout: page
 sidebar: []
 comments: false
