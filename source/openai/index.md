@@ -3,8 +3,6 @@ title: OpenAI API 代理
 layout: false
 ---
 
-{% raw %}
-
 # OpenAI API 代理
 
 由于 OpenAI 及 GFW 的双重限制，国内开发者无法访问 OpenAI 的 API，现提供代理服务地址供开发者**免费**使用。
@@ -216,5 +214,3 @@ Email：[towindback@qq.com](mailto:towindback@qq.com)
 体验ChatGPT：https://chat.wndbac.cn
 
 更新时间：2023-04-15
-
-{% endraw %}
