@@ -122,7 +122,7 @@ replace:
   # - https://unpkg.com/ => https://cdn.wndbac.cn/npm/
   - https://cdn.jsdelivr.net/gh/ => https://cdn1.tianli0.top/gh/
   # - https://cdn.jsdelivr.net/gh/ => https://cdn.wndbac.cn/gh/
-  - https://gcore.jsdelivr.net/gh/wndbac/Static/ => https://static.wndbac.cn/
+  # - https://gcore.jsdelivr.net/gh/wndbac/Static/ => https://static.wndbac.cn/
   - https://cdn.wndbac.cn/ => https://cdn1.tianli0.top/
 
 
