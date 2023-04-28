@@ -686,6 +686,10 @@ sidebar:
           img: https://storage.wndbac.cn/links/beacox.png
           url: https://blog.beacox.space
           target: _blank
+        - name: 啊不都
+          img: https://storage.wndbac.cn/links/abudu.png
+          url: https://www.oplog.cn
+          target: _blank
     # ---------------------------------------
     # notes widget
     notes:
