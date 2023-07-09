@@ -139,7 +139,7 @@ scroll_smooth: true
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://storage.wndbac.cn/storage/image/logo.png # volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+    img: https://static.wndbac.cn/storage/image/logo.png # volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
     icon: 
     title: 
   menu:
@@ -223,7 +223,7 @@ cover:
     home: false
     archive: false
     others: false # can be written in front-matter 'cover: true'
-  background: https://storage.wndbac.cn/img/background.jpg
+  background: https://static.wndbac.cn/img/background.jpg
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 'WindBack'
@@ -381,7 +381,7 @@ article:
       # 默认文章作者（可在 _data/author.yaml 中增加其他作者，并在 front-matter 中设置）
       # https://volantis.js.org/advanced-settings/#多人协同
       author:
-        avatar: https://storage.wndbac.cn/avatar.jpg # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
+        avatar: https://static.wndbac.cn/avatar.jpg # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
         name: WindBack
         url: /
       # 文章创建日期
@@ -613,7 +613,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
-      avatar: https://storage.wndbac.cn/avatar.jpg # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+      avatar: https://static.wndbac.cn/avatar.jpg # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
       shape: circle # circle, rectangle
       url: /about/
       title: WindBack
@@ -675,19 +675,19 @@ sidebar:
         title: 推荐
       rows:
         - name: 杜老师说
-          img: https://storage.wndbac.cn/links/du.png
+          img: https://static.wndbac.cn/links/du.png
           url: https://dusays.com
           target: _blank
         - name: MHuiG
-          img: https://storage.wndbac.cn/links/mhg.png
+          img: https://static.wndbac.cn/links/mhg.png
           url: https://blog.mhuig.top
           target: _blank
         - name: BeaCox
-          img: https://storage.wndbac.cn/links/beacox.png
+          img: https://static.wndbac.cn/links/beacox.png
           url: https://blog.beacox.space
           target: _blank
         - name: 啊不都
-          img: https://storage.wndbac.cn/links/abudu.png
+          img: https://static.wndbac.cn/links/abudu.png
           url: https://www.oplog.cn
           target: _blank
     # ---------------------------------------
@@ -1093,7 +1093,7 @@ plugins:
     private_api_url: https://fcircle.wndbac.cn/ # api 地址
     page_init_number: 20 # 初始加载几篇文章
     page_turning_number: 10 # 点击加载更多时，一次最多加载几篇文章，默认10
-    error_img: https://storage.wndbac.cn/img/mp.png # 头像加载失败时，默认头像地址
+    error_img: https://static.wndbac.cn/img/mp.png # 头像加载失败时，默认头像地址
     sort_rule: created # 进入页面时第一次的排序规则,可选值：created/updated
     expire_days: 1 # 本地文章缓存数据过期时间（天）
     js: https://npm.elemecdn.com/fcircle-theme-yyyz@1.0.13/dist/fcircle.min.js # fcircle.min.js的url
