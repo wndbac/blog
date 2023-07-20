@@ -118,12 +118,11 @@ content_visibility: false
 
 # 全局页面字符串替换  A => B (可用于临时修改错字等)
 replace:
-  - https://cdn.jsdelivr.net/npm/ => https://cdn1.tianli0.top/npm/
+  - https://cdn.jsdelivr.net/npm/ => https://cdn.wndbac.cn/npm/
   # - https://unpkg.com/ => https://cdn.wndbac.cn/npm/
-  - https://cdn.jsdelivr.net/gh/ => https://cdn1.tianli0.top/gh/
+  - https://cdn.jsdelivr.net/gh/ => https://cdn.wndbac.cn/gh/
   # - https://cdn.jsdelivr.net/gh/ => https://cdn.wndbac.cn/gh/
   # - https://gcore.jsdelivr.net/gh/wndbac/Static/ => https://static.wndbac.cn/
-  - https://cdn.wndbac.cn/ => https://cdn1.tianli0.top/
 
 
 # dns-prefetch preconnect x-dns-prefetch-control
